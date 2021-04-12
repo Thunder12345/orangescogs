@@ -129,7 +129,7 @@ class Fridge(BaseCog):
         if "@" in item:
             await ctx.send(f"Nice try")
             return
-        
+
         if len(item) > 100 or "```" in item:
             await ctx.send(f"This is too big to fit in the fridge")
             return
